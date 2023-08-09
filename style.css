@@ -1,0 +1,1114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    height: 5000px;
+    border: 1px solid black;
+}
+
+.header{
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid blue; */
+    background-image: url(img/mercerdes-header.jpg);
+    background-size: cover;
+}
+.headerfooter{
+    width: 100%;
+    height: 140px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerlogo{
+    width: 200px;
+    height: 60px;
+    /* border: 1px solid blue;
+    background-color: blue; */
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.ulfooter{
+    width: 800px;
+    height: 100px;
+    /* border: 1px solid blue; */
+    margin-right: 50px;
+    margin-bottom: 70px;
+}
+
+.lifooter{
+    list-style: none;
+    font-size: arial;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+}
+
+.lifooter a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+.h1div{
+    width: 500px;
+    height: 119px;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.sp1{
+    margin-left: 32%;
+}
+
+.slackdiv{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divleft{
+    width: 100px;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin-left: 35px;
+}
+
+.divright{
+    width: 100px;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin-right: 35px;
+}
+
+.divmenu{
+    width: 90%;
+    height: 230px;
+    border: 1px solid blue;
+    background-color: #0D46F1;
+    margin: 0 auto;
+    margin-top: 125px;
+    position: relative;
+}
+
+.divmenu1{
+    width: 300px;
+    height: 60%;
+    border: 1px solid #3D6BF4;
+    border-top: #0D46F1;
+    border-bottom: #0D46F1;
+    border-left: #0D46F1;
+    
+    
+}
+
+.menuimgdiv{
+    width: 80px;
+    height: 80px;
+    /* border: solid 1px red; */
+    margin-top: 40px ;
+    margin-left: 105px;
+    
+}
+
+.menuh1{
+    font-family: arial;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    
+}
+
+.menuh1div{
+    width: 150px;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+.divmenu2{
+    width: 180px;
+    height: 60%;
+    border: 1px solid #3D6BF4;
+    border-top: #0D46F1;
+    border-bottom: #0D46F1;
+    border-left: #0D46F1;
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+}
+
+.divmenubattery{
+    position: absolute;
+    left: 64px;
+}
+
+.textbattery{
+    position: absolute;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    left: 43px;
+    top: 55px;
+}
+
+.sp22{
+    position: absolute;
+    left: 13px;
+}
+
+.divmenu3{
+    width: 180px;
+    height: 60%;
+    border: 1px solid #3D6BF4;
+    border-top: #0D46F1;
+    border-bottom: #0D46F1;
+    border-left: #0D46F1;
+    position: absolute;
+    bottom: 50px;
+    left: 450px;
+}
+
+.divmenuflag{
+    position: absolute;
+    left: 64px;
+}
+
+.textflag{
+    position: absolute;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    left: 43px;
+    top: 55px;
+}
+
+.sp33{
+    position: absolute;
+    left: 26px;
+}
+
+.divmenu4{
+    width: 180px;
+    height: 60%;
+    border: 1px solid #3D6BF4;
+    border-top: #0D46F1;
+    border-bottom: #0D46F1;
+    border-left: #0D46F1;
+    position: absolute;
+    bottom: 50px;
+    left: 590px;
+}
+
+.divmenuspeedmeter{
+    position: absolute;
+    left: 85px;
+}
+
+.textspeedmeter{
+    position: absolute;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    left: 70px;
+    top: 55px;
+}
+
+.sp44{
+    position: absolute;
+    left: 21px;
+}
+
+.divmenu5{
+    width: 180px;
+    height: 60%;
+    border: 1px solid #3D6BF4;
+    border-top: #0D46F1;
+    border-bottom: #0D46F1;
+    border-left: #0D46F1;
+    position: absolute;
+    bottom: 50px;
+    left: 750px;
+}
+
+.divmenuengine{
+    position: absolute;
+    left: 74px;
+}
+
+.textengine{
+    position: absolute;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    left: 70px;
+    top: 55px;
+}
+
+.sp55{
+    position: absolute;
+    left: 3px;
+    
+}
+
+.moneydiv{
+    width: 280px;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0px;
+    left: 930px;
+}
+
+.moneyp{
+    font-size: 22px;
+    font-family: Arial;
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 45px;
+    left: 100px;
+    text-decoration: line-through;
+}
+
+.moneyp2{
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+    position: absolute;
+    top: 75px;
+    left: 85px;
+}
+
+.menubuttondiv{
+    width: 150px;
+    height: 65px;
+    border: solid 1px white;
+    position: absolute;
+    top: 123px;
+    left: 74px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    font-family: arial;
+    line-height: 65px;
+}
+
+.menubuttondiv:hover{
+    background-color: #0D46F0;
+    color: black;
+    
+}
+
+.parent2{
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid black; */
+    background-color: white;
+    position: relative;
+}
+
+.parent2h1{
+    color: black;
+    font-size: 50px;
+    font-family: arial;
+    position: absolute;
+    top: 90px;
+    left: 70px;
+}
+
+.parent2img1{
+    position: absolute;
+    top: 280px;
+    left: 70px;
+    border: 10px solid white;
+}
+
+.parent2img2{
+    position: absolute;
+    top: 450px;
+    left: 199px;
+    border: 10px solid white;
+}
+
+
+.parent2img3{
+    position: absolute;
+    top: 650px;
+    left: 70px;
+    border: 10px solid white;
+}
+
+
+.parent2img4{
+    position: absolute;
+    top: 90px;
+    left: 780px;
+}
+
+.parent2img5{
+    position: absolute;
+    top: 280px;
+    left: 788px;
+}
+
+.parent2img6{
+    position: absolute;
+    top: 470px;
+    left: 788px;
+}
+
+.parent2img7{
+    position: absolute;
+    top: 660px;
+    left: 788px;
+}
+
+.parent2img8{
+    position: absolute;
+    top: 850px;
+    left: 788px;
+}
+
+.parent2h11{
+ font-size: 30px;
+ color: black;
+ font-family: arial;
+ position: absolute;
+ top: 90px;
+ left: 915px;
+}
+
+.parent2h22{
+    font-size: 30px;
+    color: black;
+    font-family: arial;
+    position: absolute;
+    top: 280px;
+    left: 915px;
+}
+
+.parent2h33{
+    font-size: 30px;
+    color: black;
+    font-family: arial;
+    position: absolute;
+    top: 475px;
+    left: 915px;
+}
+
+.parent2h44{
+    font-size: 30px;
+    color: black;
+    font-family: arial;
+    position: absolute;
+    top: 660px;
+    left: 915px;
+}
+
+.parent2h55{
+    font-size: 30px;
+    color: black;
+    font-family: arial;
+    position: absolute;
+    top: 850px;
+    left: 915px;
+}
+
+.parent2p1{
+    color: black;
+    font-family: arial;
+    position: absolute;
+    top: 150px;
+    left: 915px;
+}
+
+.parent2p2{
+    color: black;
+    font-family: arial;
+    position: absolute;
+    top: 340px;
+    left: 915px;
+}
+
+.parent2p3{
+    color: black;
+    font-family: arial;
+    position: absolute;
+    top: 530px;
+    left: 915px;
+}
+
+.parent2p4{
+    color: black;
+    font-family: arial;
+    position: absolute;
+    top: 720px;
+    left: 915px;
+}
+
+.parent2p5{
+    color: black;
+    font-family: arial;
+    position: absolute;
+    top: 910px;
+    left: 915px;
+}
+
+.parent3{
+    width: 100%;
+    height: 700px;
+    border: 1px solid #102127;
+    background-color: #102127;
+    position: relative;
+   
+}
+
+.parent3h1{
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+    position: absolute;
+    top: 110px;
+    left: 60px;
+}
+
+.parent3leftrightdiv{
+    width: 280px;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-top: 105px;
+    margin-left: 75%;
+    display: flex;
+}
+
+.parent3left{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.parent3leftdiv{
+    width: 90%;
+    height: 90%;
+}
+
+.parent3right{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.parent3rightdiv{
+    width: 90%;
+    height: 90%;
+}
+
+.parent3cars{
+    width: 100%;
+    height: 251px;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent3cardiv1{
+    width: 26%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-image: url(img/carousel-item1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parent3cardiv2{
+    width: 26%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-image: url(img/carousel-item2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parent3cardiv3{
+    width: 26%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-image: url(img/carousel-item3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parentsscarssdiv{
+width: 100%;
+height: 80px;
+/* border: 2px solid red; */
+display: flex;
+justify-content: space-around;
+}
+
+.parent3bluediv1{
+    width: 26%;
+    height: 80px;
+    /* border: 1px solid red; */
+    background-color: #0D46F1;
+    position: relative;   
+}
+
+.parent3h11{
+    color: white;
+    font-family: arial;
+    font-size: 10px;
+    position: absolute;
+    top: 19px;
+    left: 15px;
+}
+
+.parent3sp1{
+    font-size: 18px;
+}
+
+.parent3h22{
+    color: white;
+    font-family: arial;
+    font-size: 10px;
+    position: absolute;
+    top: 19px;
+    left: 150px;
+}
+
+.parent3sp2{
+    font-size: 18px;
+}
+
+.parent3button1{
+    width: 110px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #0D46F1;
+    border-radius: 19px;
+    position: absolute;
+    top: 19px;
+    left: 225px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 13px;
+    font-family: arial;
+}
+
+.parent3button1:hover{
+    background-color: white;
+    color: black;
+}
+
+.parent3bluediv2{
+    width: 26%;
+    height: 80px;
+    /* border: 1px solid red; */
+    background-color: #0D46F1;
+    display: flex;
+}
+
+.parent3h33{
+    color: white;
+    font-family: Arial,;
+    font-size: 10px;
+    margin-top: 19px;
+    margin-left: 15px;
+      
+   }
+
+.parent3sp3{
+    font-size: 18px;
+}
+
+.parent3h44{
+    color: white;
+    font-family: arial;
+    font-size: 10px;
+    margin-top: 19px;
+    margin-left: 50px;
+}
+
+.parent3sp4{
+    font-size: 18px;
+}
+
+.parent3button2{
+    width: 110px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #0D46F1;
+    border-radius: 19px;
+    margin-top: 15px;
+    margin-left: 13px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 13px;
+    font-family: arial;
+}
+
+.parent3button2:hover{
+    background-color: white;
+    color: black;
+}
+
+.parent3bluediv3{
+    width: 26%;
+    height: 80px;
+    /* border: 1px solid red; */
+    background-color: #0D46F1;
+    position: relative; 
+    display: flex;
+}
+
+.parent3h55{
+    color: white;
+    font-family: Arial,;
+    font-size: 10px;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+.parent3sp5{
+    font-size: 18px;
+}
+
+.parent3h66{
+    color: white;
+    font-family: arial;
+    font-size: 10px;
+    margin-top: 19px;
+    margin-left: 50px;
+}
+
+.parent3sp6{
+    font-size: 18px;
+}
+
+.parent3button3{
+    width: 110px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #0D46F1;
+    border-radius: 19px;
+    margin-top: 15px;
+    margin-left: 13px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 13px;
+    font-family: arial;
+}
+
+.parent3button3:hover{
+    background-color: white;
+    color: black;
+}
+
+.parent4{
+    width: 100%;
+    height: 1000px;
+    border: 2px solid red;
+    background-color: white;
+    position: relative;
+}
+
+.parent4h1{
+    color: black;
+    font-family: arial;
+    font-size: 45px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.parent4button{
+    width: 230px;
+    height: 55px;
+    border: 2px solid #0D46F1;
+    border-radius: 25px;
+    background-color: white;
+    position: absolute;
+    top: 120px;
+    left: 1050px;
+    color: blue;
+    text-align: center;
+    line-height: 55px;
+    font-family: arial;
+}
+
+.parent4button:hover{
+    background-color: #0D46F0;
+    color: white;
+    transition: 1s;
+}
+
+.parent4carsdiv1{
+    width: 100%;
+    height: 172px;
+    /* border: 2px solid red; */
+    position: relative;
+    position: absolute;
+    top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parent4car1{
+    width: 19%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-image: url(img/car-menu1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parent4car2{
+    width: 19%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-image: url(img/car-menu2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parent4car3{
+    width: 19%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-image: url(img/car-menu3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parent4car4{
+    width: 19%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-image: url(img/car-menu4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parent4textsdiv1{
+    width: 100%;
+    height: 230px;
+    /* border: 1px solid #CCCCCC; */
+    position: absolute;
+    top: 420px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent4textdiv1{
+    width: 19%;
+    height: 100%;
+    border: 1px solid #CCCCCC;
+    margin-left: 37px;
+    background-color: white;
+}
+
+.parent4textdiv2{
+    width: 19%;
+    height: 100%;
+    border: 1px solid #CCCCCC;
+    background-color: white;
+}
+
+.parent4textdiv3{
+    width: 19%;
+    height: 100%;
+    border: 1px solid #CCCCCC;
+    background-color: white;
+}
+
+.parent4textdiv4{
+    width: 19%;
+    height: 100%;
+    border: 1px solid #CCCCCC;
+    background-color: white;
+}
+
+.parent4textdiv1h1{
+color: blue;
+font-size: 12px;
+font-family: arial;
+position: absolute;
+top: 30px;
+left: 85px;
+}
+
+.parent4textdiv1sp1{
+    color: black;
+    font-size: 20px;
+}
+
+.parent4img1{
+    position: absolute;
+    top: 100px;
+    left: 85px;
+}
+
+.parent4img2{
+    position: absolute;
+    top: 145px;
+    left: 83px;
+}
+
+.parent4img3{
+    position: absolute;
+    top: 145px;
+    left: 195px;
+}
+
+.parent4p1{
+    font-family: arial;
+    position: absolute;
+    top: 105px;
+    left: 115px;
+}
+
+.parent4p2{
+    font-family: arial;
+    position: absolute;
+    top: 105px;
+    left: 195px;
+}
+
+.parent4p3{
+    font-family: arial;
+    position: absolute;
+    top: 150px;
+    left: 112px;
+}
+
+.parent4p4{
+    font-family: arial;
+    position: absolute;
+    top: 150px;
+    left: 220px;
+}
+
+.parent4textdiv1:hover{
+    background-color: #CCCCCC;
+}
+
+.parent4textdiv2h1{
+color: blue;
+font-size: 12px;
+font-family: arial;
+position: absolute;
+top: 30px;
+left: 400px;
+}
+
+.parent4textdiv2sp2{
+    color: black;
+    font-size: 20px;
+}
+
+.parent4img11{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.parent4img22{
+    position: absolute;
+    top: 145px;
+    left: 400px;
+}
+
+.parent4img33{
+    position: absolute;
+    top: 145px;
+    left: 515px;
+}
+
+.parent4div2p1{
+    font-family: arial;
+    position: absolute;
+    top: 105px;
+    left: 427px;
+}
+
+.parent4div2p2{
+    font-family: arial;
+    position: absolute;
+    top: 105px;
+    left: 518px;
+}
+
+.parent4div2p3{
+    font-family: arial;
+    position: absolute;
+    top: 150px;
+    left: 426px;
+}
+
+.parent4div2p4{
+    font-family: arial;
+    position: absolute;
+    top: 150px;
+    left: 540px;
+}
+
+.parent4textdiv2:hover{
+    background-color: #CCCCCC;
+}
+
+.parent4textdiv3h1{
+color: blue;
+font-size: 12px;
+font-family: arial;
+position: absolute;
+top: 30px;
+left: 712px;
+}
+
+.parent4textdiv3sp3{
+    color: black;
+    font-size: 20px;
+}
+
+.parent4img111{
+    position: absolute;
+    top: 100px;
+    left: 712px;
+}
+
+.parent4img222{
+    position: absolute;
+    top: 145px;
+    left: 712px;
+}
+
+.parent4img333{
+    position: absolute;
+    top: 145px;
+    left: 820px;
+}
+
+.parent4div3p1{
+    font-family: arial;
+    position: absolute;
+    top: 105px;
+    left: 736px;
+}
+
+.parent4div3p2{
+    font-family: arial;
+    position: absolute;
+    top: 105px;
+    left: 820px;
+}
+
+.parent4div3p3{
+    font-family: arial;
+    position: absolute;
+    top: 145px;
+    left: 736px;
+}
+
+.parent4div3p4{
+    font-family: arial;
+    position: absolute;
+    top: 148px;
+    left: 850px;
+}
+
+.parent4textdiv3:hover{
+    background-color: #CCCCCC;
+}
+
+.parent4textdiv4h1{
+color: blue;
+font-size: 12px;
+font-family: arial;
+position: absolute;
+top: 30px;
+left: 1025px;
+}
+
+.parent4textdiv4sp4{
+    color: black;
+    font-size: 20px;
+}
+
+.parent4img1111{
+    position: absolute;
+    top: 100px;
+    left: 1025px;
+}
+
+.parent4img2222{
+    position: absolute;
+    top: 145px;
+    left: 1025px;
+}
+
+.parent4img3333{
+    position: absolute;
+    top: 145px;
+    left: 1150px;
+}
+
+.parent4div4p1{
+    font-family: arial;
+    position: absolute;
+    top: 105px;
+    left: 1049px;
+}
+
+.parent4div4p2{
+    font-family: arial;
+    position: absolute;
+    top: 105px;
+    left: 1150px;
+}
+
+.parent4div4p3{
+    font-family: arial;
+    position: absolute;
+    top: 145px;
+    left: 1049px;
+}
+
+.parent4div4p4{
+    font-family: arial;
+    position: absolute;
+    top: 148px;
+    left: 1180px;
+}
+
+.parent4textdiv4:hover{
+  background-color: #CCCCCC;
+}
